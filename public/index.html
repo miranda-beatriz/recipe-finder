@@ -1,40 +1,70 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Busca de Receitas</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-        }
-        .recipe {
-            border: 1px solid #ddd;
-            padding: 10px;
-            margin: 10px 0;
-        }
-        .recipe img {
-            max-width: 100px;
-            display: block;
-        }
-    </style>
+    <title>Recipe Finder</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="recipe-finder/script/home-page.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Busca de Receitas</h1>
-    
-    <form id="recipe-form">
-        <input type="text" id="query" placeholder="Digite um ingrediente..." required>
-        <button type="submit">Buscar</button>
-    </form>
-    
-    <button id="random-recipe-btn">Receita Aleatória</button>
-    
-    <h2>Resultados:</h2>
+    <header class="top-nav">
+        <nav>
+            <a id="random-recipe-btn">Random Recipe</a>
+            <img class="logo"  src="images/logo.jpg" alt="logo">
+            <form id="recipe-form">
+                <input type="text" id="query" placeholder="Search for a recipe" required>
+                <button type="submit">Search</button>
+            </form>
+
+
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero-text">
+                <p class="tagline">Discover New Recipes</p>
+                <h2 class="hero-heading">Find the Perfect Recipe for Any Occasion</h2>
+                <p class="hero-description">
+                    Search for recipes by ingredient, explore random recipes, and save your favorites in your personal recipe book.
+                </p>
+            </div>
+            <div class="hero-image">
+                <img src="images/hero.webp" alt="Delicious Food">
+            </div>
+        </section>
+
+        <section id="results" class="results-section"></section>
+    </main>
+
+        
     <div id="recipes"></div>
+
+    <footer>
+        <div class="footer-content">
+            <nav>
+                <a href="https://glittering-platypus-2ed3a6.netlify.app/">Home</a>
+                <a id="random-recipe-btn">Random Recipe</a>
+            </nav>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/"><img src="images/instagram.jpg" alt="instagram"></a>
+                <a href="https://x.com/?lang=pt"><img src="images/x.webp" alt="x"></a>
+                <a href="https://www.facebook.com/?locale=pt_BR"><img src="images/facebook.png" alt="facebook"></a>
+            </div>
+            <img class="logo"  src="images/logo.jpg" alt="logo">
     
-    <h2>Favoritas:</h2>
-    <div id="favorite-recipes"></div>
+            
+        </div>
+        <p class="footer-text">© 2024 Your Website. All rights reserved.</p>
+        <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+        </div>
+    </footer>
     
     <script src="script.js"></script>
 </body>

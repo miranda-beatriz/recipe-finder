@@ -7,26 +7,26 @@ document.getElementById("recipe-form").addEventListener("submit", async function
 async function fetchRecipes(query) {
     try {
         const response = await fetch(`/api/recipes?query=${query}`);
-        if (!response.ok) throw new Error("Erro ao buscar receitas");
+        if (!response.ok) throw new Error("Error when searching for recipes");
         
         const recipes = await response.json();
         displayRecipes(recipes);
     } catch (error) {
         console.error(error);
-        alert("Erro ao buscar receitas");
+        alert("Error when searching for recipes");
     }
 }
 
 async function fetchRandomRecipe() {
     try {
         const response = await fetch("/api/random-recipe");
-        if (!response.ok) throw new Error("Erro ao buscar receita aleatória");
+        if (!response.ok) throw new Error("Error when searching for random recipe");
         
         const recipe = await response.json();
         displayRecipes([recipe]);
     } catch (error) {
         console.error(error);
-        alert("Erro ao buscar receita aleatória");
+        alert("Error when searching for random recipe");
     }
 }
 
@@ -35,7 +35,7 @@ function displayRecipes(recipes) {
     container.innerHTML = "";
     
     if (recipes.length === 0) {
-        container.innerHTML = "<p>Nenhuma receita encontrada.</p>";
+        container.innerHTML = "<p>No recipes found.</p>";
         return;
     }
     
@@ -46,8 +46,8 @@ function displayRecipes(recipes) {
         recipeElement.innerHTML = `
             <h3>${recipe.label}</h3>
             <img src="${recipe.image}" alt="${recipe.label}">
-            <button onclick='saveFavorite(${JSON.stringify(recipe)})'>Salvar</button>
-            <button onclick='rateRecipe("${recipe.label}")'>Avaliar</button>
+            <button onclick='saveFavorite(${JSON.stringify(recipe)})'>Save</button>
+            <button onclick='rateRecipe("${recipe.label}")'>Rate</button>
         `;
         container.appendChild(recipeElement);
     });
@@ -64,14 +64,14 @@ async function saveFavorite(recipe) {
         alert(data.message);
     } catch (error) {
         console.error(error);
-        alert("Erro ao salvar receita");
+        alert("Error saving recipe");
     }
 }
 
 async function rateRecipe(label) {
-    const rating = prompt("Dê uma nota de 0 a 5 para a receita:");
+    const rating = prompt("Rate the recipe from 0 to 5:");
     if (rating === null || isNaN(rating) || rating < 0 || rating > 5) {
-        alert("Nota inválida");
+        alert("Invalid");
         return;
     }
     
@@ -85,9 +85,9 @@ async function rateRecipe(label) {
         alert(data.message);
     } catch (error) {
         console.error(error);
-        alert("Erro ao avaliar receita");
+        alert("Error when evaluating recipe");
     }
+
 }
 
-// Botão para receita aleatória
 document.getElementById("random-recipe-btn").addEventListener("click", fetchRandomRecipe);
