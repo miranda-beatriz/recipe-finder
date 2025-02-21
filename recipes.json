@@ -1,0 +1,1428 @@
+[
+  {
+    "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_74e73b8648bf93fda3c8b2047734d445",
+    "label": "Cottage Cheese & Carrots",
+    "image": "https://edamam-product-images.s3.amazonaws.com/web-img/a6e/a6eb5a0ae36a2014ed5e6b4f2a2edcbb?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJIMEYCIQCP1Tm1QHCHLBV9cSsII4g2wt2HF%2FPH7plf3veTJ%2FjEggIhANNFYXdj11ThiYzKOWGIma7JbTB9cE0gNtj7gzqKKq4pKsEFCMz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMTg3MDE3MTUwOTg2IgxWg4Txk13ckLQ6PDwqlQUGZT5BzfCU5T8Mmi%2BaeHyaKLpUAMf%2BIdQ%2Bj3YpEpharQYHshPh6HV%2FqW0aBXK53Wh7VJGXwsnaPgurztIEhMncC7p5rshvkf%2BjnRm6vaJhaRI3xo5Y8nQYaAHA%2B%2FAN1uZVA1Dd7RxCO2vfHPA6aW4KpfQdQxxYGn%2B2leK6ZCSfqm3w38MHpoflIHZN4M%2FRm2UEagLHDKFXMVqY7qT2Gi14Ow4cxh8gr05eIePorpNCuBWOZ%2BAVcxNHpgFx7UrR4pmv4Jf4uvzubRu07kIbjgP3d35%2BySKkz%2FeSVu5HdV%2FWkyP5Zj0tOCnMc0gE1A3WAW8ptFgnTMABYZE%2Bup4qQ60UwnDDJVrncxABWSZHswGnmS6fyzLJFg8eSkxr78CqqigvMHyzkYks4I3nfiRAeF0zpoCNvFvcaI1rO5YgK3xRXTfE27mRdb72bOdQKMXi%2FXpUa0d%2B2U7OBHQys4Xzzx0nc6fNCp%2By0J%2B5Htjs1g%2BaAatu23Wqi8zeUq0P0PWCGsYbrgwnb8MRQs6RM%2FXOpqWSzNoBWyFaaCzj4KYc8EdhtOaQVm8BsdWgzYk5Lc%2BDb04WfozrGHJ8xWqVhhn19d7YboOJUGUEq3zyegIp9crAjVA8haztp%2F7pusUIlLRfkc4NBn0Jy1aieA8UlWA4eRACygKeWms4R%2FdBT50IuHJh6cGv9j24wE9i60ESyXMIr2tZKcl10cn7KE4IPD69Q0KnAC92TS%2Bk27qs07d0SRYyUpFaOYGqFmoSOpe75AM%2B1uVk3wD5Gr5Rn2iiHFt10UPzz%2Bm6Mqzx1GiDtmfLa4iugdIH%2FTG8D7FmCUpHBv2OTbzvwUZy%2Bm0oQzlAauz3YSLevUNzI99aRs4d8WjJRWKwURbz1sDRMJ7R370GOrABBODj1%2FSzo4L6zPpynUfbRSDV8uz7BfdAuep3eJVBpFPwr%2F5pIjsKZ9pBoMa6bnG8HLpEzKI%2BL5Z3HDR2R52U8hDAeogXRoDWYxW2WoYEOHGdOcHhgVGNzpqxFuCg8aNTU8kZDdyBLz8vmn5vz%2Bdlb2Gnm3fUk%2FA8OGxvvjJAtuHsw1hUPpkTwjCfIcHgQfMbDPrHQP6UC1eWGMObRBkIdST4GJrNiafSvSDqHwB7U88%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20250221T034850Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=ASIASXCYXIIFPCHHIPSI%2F20250221%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=5d76c60876f9ec0f25a6e0afdb0964f86d37bf65b8221b041a6c0ae63fd8c838",
+    "images": {
+      "THUMBNAIL": {
+        "url": "https://edamam-product-images.s3.amazonaws.com/web-img/a6e/a6eb5a0ae36a2014ed5e6b4f2a2edcbb-s?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJIMEYCIQCP1Tm1QHCHLBV9cSsII4g2wt2HF%2FPH7plf3veTJ%2FjEggIhANNFYXdj11ThiYzKOWGIma7JbTB9cE0gNtj7gzqKKq4pKsEFCMz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMTg3MDE3MTUwOTg2IgxWg4Txk13ckLQ6PDwqlQUGZT5BzfCU5T8Mmi%2BaeHyaKLpUAMf%2BIdQ%2Bj3YpEpharQYHshPh6HV%2FqW0aBXK53Wh7VJGXwsnaPgurztIEhMncC7p5rshvkf%2BjnRm6vaJhaRI3xo5Y8nQYaAHA%2B%2FAN1uZVA1Dd7RxCO2vfHPA6aW4KpfQdQxxYGn%2B2leK6ZCSfqm3w38MHpoflIHZN4M%2FRm2UEagLHDKFXMVqY7qT2Gi14Ow4cxh8gr05eIePorpNCuBWOZ%2BAVcxNHpgFx7UrR4pmv4Jf4uvzubRu07kIbjgP3d35%2BySKkz%2FeSVu5HdV%2FWkyP5Zj0tOCnMc0gE1A3WAW8ptFgnTMABYZE%2Bup4qQ60UwnDDJVrncxABWSZHswGnmS6fyzLJFg8eSkxr78CqqigvMHyzkYks4I3nfiRAeF0zpoCNvFvcaI1rO5YgK3xRXTfE27mRdb72bOdQKMXi%2FXpUa0d%2B2U7OBHQys4Xzzx0nc6fNCp%2By0J%2B5Htjs1g%2BaAatu23Wqi8zeUq0P0PWCGsYbrgwnb8MRQs6RM%2FXOpqWSzNoBWyFaaCzj4KYc8EdhtOaQVm8BsdWgzYk5Lc%2BDb04WfozrGHJ8xWqVhhn19d7YboOJUGUEq3zyegIp9crAjVA8haztp%2F7pusUIlLRfkc4NBn0Jy1aieA8UlWA4eRACygKeWms4R%2FdBT50IuHJh6cGv9j24wE9i60ESyXMIr2tZKcl10cn7KE4IPD69Q0KnAC92TS%2Bk27qs07d0SRYyUpFaOYGqFmoSOpe75AM%2B1uVk3wD5Gr5Rn2iiHFt10UPzz%2Bm6Mqzx1GiDtmfLa4iugdIH%2FTG8D7FmCUpHBv2OTbzvwUZy%2Bm0oQzlAauz3YSLevUNzI99aRs4d8WjJRWKwURbz1sDRMJ7R370GOrABBODj1%2FSzo4L6zPpynUfbRSDV8uz7BfdAuep3eJVBpFPwr%2F5pIjsKZ9pBoMa6bnG8HLpEzKI%2BL5Z3HDR2R52U8hDAeogXRoDWYxW2WoYEOHGdOcHhgVGNzpqxFuCg8aNTU8kZDdyBLz8vmn5vz%2Bdlb2Gnm3fUk%2FA8OGxvvjJAtuHsw1hUPpkTwjCfIcHgQfMbDPrHQP6UC1eWGMObRBkIdST4GJrNiafSvSDqHwB7U88%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20250221T034850Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=ASIASXCYXIIFPCHHIPSI%2F20250221%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=5f1367d542befdf8d96c1dc5d5d5718df5b951ecc8f180036c91eef58cbbfec8",
+        "width": 100,
+        "height": 100
+      },
+      "SMALL": {
+        "url": "https://edamam-product-images.s3.amazonaws.com/web-img/a6e/a6eb5a0ae36a2014ed5e6b4f2a2edcbb-m?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJIMEYCIQCP1Tm1QHCHLBV9cSsII4g2wt2HF%2FPH7plf3veTJ%2FjEggIhANNFYXdj11ThiYzKOWGIma7JbTB9cE0gNtj7gzqKKq4pKsEFCMz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMTg3MDE3MTUwOTg2IgxWg4Txk13ckLQ6PDwqlQUGZT5BzfCU5T8Mmi%2BaeHyaKLpUAMf%2BIdQ%2Bj3YpEpharQYHshPh6HV%2FqW0aBXK53Wh7VJGXwsnaPgurztIEhMncC7p5rshvkf%2BjnRm6vaJhaRI3xo5Y8nQYaAHA%2B%2FAN1uZVA1Dd7RxCO2vfHPA6aW4KpfQdQxxYGn%2B2leK6ZCSfqm3w38MHpoflIHZN4M%2FRm2UEagLHDKFXMVqY7qT2Gi14Ow4cxh8gr05eIePorpNCuBWOZ%2BAVcxNHpgFx7UrR4pmv4Jf4uvzubRu07kIbjgP3d35%2BySKkz%2FeSVu5HdV%2FWkyP5Zj0tOCnMc0gE1A3WAW8ptFgnTMABYZE%2Bup4qQ60UwnDDJVrncxABWSZHswGnmS6fyzLJFg8eSkxr78CqqigvMHyzkYks4I3nfiRAeF0zpoCNvFvcaI1rO5YgK3xRXTfE27mRdb72bOdQKMXi%2FXpUa0d%2B2U7OBHQys4Xzzx0nc6fNCp%2By0J%2B5Htjs1g%2BaAatu23Wqi8zeUq0P0PWCGsYbrgwnb8MRQs6RM%2FXOpqWSzNoBWyFaaCzj4KYc8EdhtOaQVm8BsdWgzYk5Lc%2BDb04WfozrGHJ8xWqVhhn19d7YboOJUGUEq3zyegIp9crAjVA8haztp%2F7pusUIlLRfkc4NBn0Jy1aieA8UlWA4eRACygKeWms4R%2FdBT50IuHJh6cGv9j24wE9i60ESyXMIr2tZKcl10cn7KE4IPD69Q0KnAC92TS%2Bk27qs07d0SRYyUpFaOYGqFmoSOpe75AM%2B1uVk3wD5Gr5Rn2iiHFt10UPzz%2Bm6Mqzx1GiDtmfLa4iugdIH%2FTG8D7FmCUpHBv2OTbzvwUZy%2Bm0oQzlAauz3YSLevUNzI99aRs4d8WjJRWKwURbz1sDRMJ7R370GOrABBODj1%2FSzo4L6zPpynUfbRSDV8uz7BfdAuep3eJVBpFPwr%2F5pIjsKZ9pBoMa6bnG8HLpEzKI%2BL5Z3HDR2R52U8hDAeogXRoDWYxW2WoYEOHGdOcHhgVGNzpqxFuCg8aNTU8kZDdyBLz8vmn5vz%2Bdlb2Gnm3fUk%2FA8OGxvvjJAtuHsw1hUPpkTwjCfIcHgQfMbDPrHQP6UC1eWGMObRBkIdST4GJrNiafSvSDqHwB7U88%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20250221T034850Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=ASIASXCYXIIFPCHHIPSI%2F20250221%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=d05e91d1d4040936b7d3ed59438ae3b413213ce376ac0f682d542eadc3654d3a",
+        "width": 200,
+        "height": 200
+      },
+      "REGULAR": {
+        "url": "https://edamam-product-images.s3.amazonaws.com/web-img/a6e/a6eb5a0ae36a2014ed5e6b4f2a2edcbb?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJIMEYCIQCP1Tm1QHCHLBV9cSsII4g2wt2HF%2FPH7plf3veTJ%2FjEggIhANNFYXdj11ThiYzKOWGIma7JbTB9cE0gNtj7gzqKKq4pKsEFCMz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMTg3MDE3MTUwOTg2IgxWg4Txk13ckLQ6PDwqlQUGZT5BzfCU5T8Mmi%2BaeHyaKLpUAMf%2BIdQ%2Bj3YpEpharQYHshPh6HV%2FqW0aBXK53Wh7VJGXwsnaPgurztIEhMncC7p5rshvkf%2BjnRm6vaJhaRI3xo5Y8nQYaAHA%2B%2FAN1uZVA1Dd7RxCO2vfHPA6aW4KpfQdQxxYGn%2B2leK6ZCSfqm3w38MHpoflIHZN4M%2FRm2UEagLHDKFXMVqY7qT2Gi14Ow4cxh8gr05eIePorpNCuBWOZ%2BAVcxNHpgFx7UrR4pmv4Jf4uvzubRu07kIbjgP3d35%2BySKkz%2FeSVu5HdV%2FWkyP5Zj0tOCnMc0gE1A3WAW8ptFgnTMABYZE%2Bup4qQ60UwnDDJVrncxABWSZHswGnmS6fyzLJFg8eSkxr78CqqigvMHyzkYks4I3nfiRAeF0zpoCNvFvcaI1rO5YgK3xRXTfE27mRdb72bOdQKMXi%2FXpUa0d%2B2U7OBHQys4Xzzx0nc6fNCp%2By0J%2B5Htjs1g%2BaAatu23Wqi8zeUq0P0PWCGsYbrgwnb8MRQs6RM%2FXOpqWSzNoBWyFaaCzj4KYc8EdhtOaQVm8BsdWgzYk5Lc%2BDb04WfozrGHJ8xWqVhhn19d7YboOJUGUEq3zyegIp9crAjVA8haztp%2F7pusUIlLRfkc4NBn0Jy1aieA8UlWA4eRACygKeWms4R%2FdBT50IuHJh6cGv9j24wE9i60ESyXMIr2tZKcl10cn7KE4IPD69Q0KnAC92TS%2Bk27qs07d0SRYyUpFaOYGqFmoSOpe75AM%2B1uVk3wD5Gr5Rn2iiHFt10UPzz%2Bm6Mqzx1GiDtmfLa4iugdIH%2FTG8D7FmCUpHBv2OTbzvwUZy%2Bm0oQzlAauz3YSLevUNzI99aRs4d8WjJRWKwURbz1sDRMJ7R370GOrABBODj1%2FSzo4L6zPpynUfbRSDV8uz7BfdAuep3eJVBpFPwr%2F5pIjsKZ9pBoMa6bnG8HLpEzKI%2BL5Z3HDR2R52U8hDAeogXRoDWYxW2WoYEOHGdOcHhgVGNzpqxFuCg8aNTU8kZDdyBLz8vmn5vz%2Bdlb2Gnm3fUk%2FA8OGxvvjJAtuHsw1hUPpkTwjCfIcHgQfMbDPrHQP6UC1eWGMObRBkIdST4GJrNiafSvSDqHwB7U88%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20250221T034850Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=ASIASXCYXIIFPCHHIPSI%2F20250221%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=5d76c60876f9ec0f25a6e0afdb0964f86d37bf65b8221b041a6c0ae63fd8c838",
+        "width": 300,
+        "height": 300
+      },
+      "LARGE": {
+        "url": "https://edamam-product-images.s3.amazonaws.com/web-img/a6e/a6eb5a0ae36a2014ed5e6b4f2a2edcbb-l?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJIMEYCIQCP1Tm1QHCHLBV9cSsII4g2wt2HF%2FPH7plf3veTJ%2FjEggIhANNFYXdj11ThiYzKOWGIma7JbTB9cE0gNtj7gzqKKq4pKsEFCMz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMTg3MDE3MTUwOTg2IgxWg4Txk13ckLQ6PDwqlQUGZT5BzfCU5T8Mmi%2BaeHyaKLpUAMf%2BIdQ%2Bj3YpEpharQYHshPh6HV%2FqW0aBXK53Wh7VJGXwsnaPgurztIEhMncC7p5rshvkf%2BjnRm6vaJhaRI3xo5Y8nQYaAHA%2B%2FAN1uZVA1Dd7RxCO2vfHPA6aW4KpfQdQxxYGn%2B2leK6ZCSfqm3w38MHpoflIHZN4M%2FRm2UEagLHDKFXMVqY7qT2Gi14Ow4cxh8gr05eIePorpNCuBWOZ%2BAVcxNHpgFx7UrR4pmv4Jf4uvzubRu07kIbjgP3d35%2BySKkz%2FeSVu5HdV%2FWkyP5Zj0tOCnMc0gE1A3WAW8ptFgnTMABYZE%2Bup4qQ60UwnDDJVrncxABWSZHswGnmS6fyzLJFg8eSkxr78CqqigvMHyzkYks4I3nfiRAeF0zpoCNvFvcaI1rO5YgK3xRXTfE27mRdb72bOdQKMXi%2FXpUa0d%2B2U7OBHQys4Xzzx0nc6fNCp%2By0J%2B5Htjs1g%2BaAatu23Wqi8zeUq0P0PWCGsYbrgwnb8MRQs6RM%2FXOpqWSzNoBWyFaaCzj4KYc8EdhtOaQVm8BsdWgzYk5Lc%2BDb04WfozrGHJ8xWqVhhn19d7YboOJUGUEq3zyegIp9crAjVA8haztp%2F7pusUIlLRfkc4NBn0Jy1aieA8UlWA4eRACygKeWms4R%2FdBT50IuHJh6cGv9j24wE9i60ESyXMIr2tZKcl10cn7KE4IPD69Q0KnAC92TS%2Bk27qs07d0SRYyUpFaOYGqFmoSOpe75AM%2B1uVk3wD5Gr5Rn2iiHFt10UPzz%2Bm6Mqzx1GiDtmfLa4iugdIH%2FTG8D7FmCUpHBv2OTbzvwUZy%2Bm0oQzlAauz3YSLevUNzI99aRs4d8WjJRWKwURbz1sDRMJ7R370GOrABBODj1%2FSzo4L6zPpynUfbRSDV8uz7BfdAuep3eJVBpFPwr%2F5pIjsKZ9pBoMa6bnG8HLpEzKI%2BL5Z3HDR2R52U8hDAeogXRoDWYxW2WoYEOHGdOcHhgVGNzpqxFuCg8aNTU8kZDdyBLz8vmn5vz%2Bdlb2Gnm3fUk%2FA8OGxvvjJAtuHsw1hUPpkTwjCfIcHgQfMbDPrHQP6UC1eWGMObRBkIdST4GJrNiafSvSDqHwB7U88%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20250221T034850Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=ASIASXCYXIIFPCHHIPSI%2F20250221%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=72eb961320dd93bd484082daf6a2723a8803484426598992603b17960b3f56bf",
+        "width": 600,
+        "height": 600
+      }
+    },
+    "source": "EatingWell",
+    "url": "http://www.eatingwell.com/recipe/266370/cottage-cheese-carrots/",
+    "shareAs": "http://www.edamam.com/recipe/cottage-cheese-carrots-74e73b8648bf93fda3c8b2047734d445/snack",
+    "yield": 1,
+    "dietLabels": [
+      "Low-Fat"
+    ],
+    "healthLabels": [
+      "Vegetarian",
+      "Pescatarian",
+      "Mediterranean",
+      "Gluten-Free",
+      "Wheat-Free",
+      "Egg-Free",
+      "Peanut-Free",
+      "Tree-Nut-Free",
+      "Soy-Free",
+      "Fish-Free",
+      "Shellfish-Free",
+      "Pork-Free",
+      "Red-Meat-Free",
+      "Crustacean-Free",
+      "Celery-Free",
+      "Mustard-Free",
+      "Sesame-Free",
+      "Lupine-Free",
+      "Mollusk-Free",
+      "Alcohol-Free",
+      "No oil added",
+      "Sulfite-Free",
+      "Kosher"
+    ],
+    "cautions": [
+      "Sulfites"
+    ],
+    "ingredientLines": [
+      "1 cup raw carrot chips",
+      "1 ounce 1 4-ounce snack size small curd low fat cottage cheese"
+    ],
+    "ingredients": [
+      {
+        "text": "1 cup raw carrot chips",
+        "quantity": 1,
+        "measure": "cup",
+        "food": "carrot",
+        "weight": 122,
+        "foodCategory": "vegetables",
+        "foodId": "food_ai215e5b85pdh5ajd4aafa3w2zm8",
+        "image": "https://www.edamam.com/food-img/121/121e33fce0bb9546ed7d060b6c114e29.jpg"
+      },
+      {
+        "text": "1 ounce 1 4-ounce snack size small curd low fat cottage cheese",
+        "quantity": 1,
+        "measure": "ounce",
+        "food": "low fat cottage cheese",
+        "weight": 28.349523125,
+        "foodCategory": "Cheese",
+        "foodId": "food_byiit84bnnfz2vauomp7ca3yh4f9",
+        "image": "https://www.edamam.com/food-img/046/046c46348bde2b7af7da40196a1c942e.jpg"
+      }
+    ],
+    "calories": 72.98311373125,
+    "totalCO2Emissions": 729.4466122250001,
+    "co2EmissionsClass": "E",
+    "totalWeight": 150.349523125,
+    "totalTime": 5,
+    "cuisineType": [
+      "american"
+    ],
+    "mealType": [
+      "lunch/dinner"
+    ],
+    "dishType": [
+      "salad"
+    ],
+    "totalNutrients": {
+      "ENERC_KCAL": {
+        "label": "Energy",
+        "quantity": 72.98311373125,
+        "unit": "kcal"
+      },
+      "FAT": {
+        "label": "Fat",
+        "quantity": 0.9363341749375,
+        "unit": "g"
+      },
+      "FASAT": {
+        "label": "Saturated",
+        "quantity": 0.39057408675000005,
+        "unit": "g"
+      },
+      "FATRN": {
+        "label": "Trans",
+        "quantity": 0.018994180493750002,
+        "unit": "g"
+      },
+      "FAMS": {
+        "label": "Monounsaturated",
+        "quantity": 0.16092353932500003,
+        "unit": "g"
+      },
+      "FAPU": {
+        "label": "Polyunsaturated",
+        "quantity": 0.14797010419375,
+        "unit": "g"
+      },
+      "CHOCDF": {
+        "label": "Carbs",
+        "quantity": 13.03703730075,
+        "unit": "g"
+      },
+      "CHOCDF.net": {
+        "label": "Carbohydrates (net)",
+        "quantity": 9.62103730075,
+        "unit": "g"
+      },
+      "FIBTG": {
+        "label": "Fiber",
+        "quantity": 3.416,
+        "unit": "g"
+      },
+      "SUGAR": {
+        "label": "Sugars",
+        "quantity": 6.916780925,
+        "unit": "g"
+      },
+      "PROCNT": {
+        "label": "Protein",
+        "quantity": 4.082950405000001,
+        "unit": "g"
+      },
+      "CHOLE": {
+        "label": "Cholesterol",
+        "quantity": 3.401942775,
+        "unit": "mg"
+      },
+      "NA": {
+        "label": "Sodium",
+        "quantity": 171.496531225,
+        "unit": "mg"
+      },
+      "CA": {
+        "label": "Calcium",
+        "quantity": 71.72797066875,
+        "unit": "mg"
+      },
+      "MG": {
+        "label": "Magnesium",
+        "quantity": 17.19145708125,
+        "unit": "mg"
+      },
+      "K": {
+        "label": "Potassium",
+        "quantity": 425.83690390625,
+        "unit": "mg"
+      },
+      "FE": {
+        "label": "Iron",
+        "quantity": 0.4028543800625,
+        "unit": "mg"
+      },
+      "ZN": {
+        "label": "Zinc",
+        "quantity": 0.4373825679375,
+        "unit": "mg"
+      },
+      "P": {
+        "label": "Phosphorus",
+        "quantity": 85.2242846875,
+        "unit": "mg"
+      },
+      "VITA_RAE": {
+        "label": "Vitamin A",
+        "quantity": 1037.977675725,
+        "unit": "µg"
+      },
+      "VITC": {
+        "label": "Vitamin C",
+        "quantity": 7.198,
+        "unit": "mg"
+      },
+      "THIA": {
+        "label": "Thiamin (B1)",
+        "quantity": 0.08618990462500001,
+        "unit": "mg"
+      },
+      "RIBF": {
+        "label": "Riboflavin (B2)",
+        "quantity": 0.14191730304375,
+        "unit": "mg"
+      },
+      "NIA": {
+        "label": "Niacin (B3)",
+        "quantity": 1.22846000881875,
+        "unit": "mg"
+      },
+      "VITB6A": {
+        "label": "Vitamin B6",
+        "quantity": 0.18451922818125002,
+        "unit": "mg"
+      },
+      "FOLDFE": {
+        "label": "Folate equivalent (total)",
+        "quantity": 25.44796185,
+        "unit": "µg"
+      },
+      "FOLFD": {
+        "label": "Folate (food)",
+        "quantity": 25.44796185,
+        "unit": "µg"
+      },
+      "FOLAC": {
+        "label": "Folic acid",
+        "quantity": 0,
+        "unit": "µg"
+      },
+      "VITB12": {
+        "label": "Vitamin B12",
+        "quantity": 0.13324275868750002,
+        "unit": "µg"
+      },
+      "VITD": {
+        "label": "Vitamin D",
+        "quantity": 0,
+        "unit": "µg"
+      },
+      "TOCPHA": {
+        "label": "Vitamin E",
+        "quantity": 0.8278796185,
+        "unit": "mg"
+      },
+      "VITK1": {
+        "label": "Vitamin K",
+        "quantity": 16.104,
+        "unit": "µg"
+      },
+      "WATER": {
+        "label": "Water",
+        "quantity": 130.7458127775,
+        "unit": "g"
+      }
+    },
+    "totalDaily": {
+      "ENERC_KCAL": {
+        "label": "Energy",
+        "quantity": 3.6491556865624997,
+        "unit": "%"
+      },
+      "FAT": {
+        "label": "Fat",
+        "quantity": 1.4405141152884615,
+        "unit": "%"
+      },
+      "FASAT": {
+        "label": "Saturated",
+        "quantity": 1.9528704337500002,
+        "unit": "%"
+      },
+      "CHOCDF": {
+        "label": "Carbs",
+        "quantity": 4.34567910025,
+        "unit": "%"
+      },
+      "FIBTG": {
+        "label": "Fiber",
+        "quantity": 13.663999999999998,
+        "unit": "%"
+      },
+      "PROCNT": {
+        "label": "Protein",
+        "quantity": 8.165900810000002,
+        "unit": "%"
+      },
+      "CHOLE": {
+        "label": "Cholesterol",
+        "quantity": 1.133980925,
+        "unit": "%"
+      },
+      "NA": {
+        "label": "Sodium",
+        "quantity": 7.145688801041667,
+        "unit": "%"
+      },
+      "CA": {
+        "label": "Calcium",
+        "quantity": 7.172797066875001,
+        "unit": "%"
+      },
+      "MG": {
+        "label": "Magnesium",
+        "quantity": 4.093204066964286,
+        "unit": "%"
+      },
+      "K": {
+        "label": "Potassium",
+        "quantity": 9.060359657579786,
+        "unit": "%"
+      },
+      "FE": {
+        "label": "Iron",
+        "quantity": 2.2380798892361113,
+        "unit": "%"
+      },
+      "ZN": {
+        "label": "Zinc",
+        "quantity": 3.9762051630681823,
+        "unit": "%"
+      },
+      "P": {
+        "label": "Phosphorus",
+        "quantity": 12.174897812500001,
+        "unit": "%"
+      },
+      "VITA_RAE": {
+        "label": "Vitamin A",
+        "quantity": 115.33085285833332,
+        "unit": "%"
+      },
+      "VITC": {
+        "label": "Vitamin C",
+        "quantity": 7.997777777777778,
+        "unit": "%"
+      },
+      "THIA": {
+        "label": "Thiamin (B1)",
+        "quantity": 7.182492052083335,
+        "unit": "%"
+      },
+      "RIBF": {
+        "label": "Riboflavin (B2)",
+        "quantity": 10.916715618749999,
+        "unit": "%"
+      },
+      "NIA": {
+        "label": "Niacin (B3)",
+        "quantity": 7.6778750551171875,
+        "unit": "%"
+      },
+      "VITB6A": {
+        "label": "Vitamin B6",
+        "quantity": 14.193786783173078,
+        "unit": "%"
+      },
+      "FOLDFE": {
+        "label": "Folate equivalent (total)",
+        "quantity": 6.3619904625,
+        "unit": "%"
+      },
+      "VITB12": {
+        "label": "Vitamin B12",
+        "quantity": 5.551781611979168,
+        "unit": "%"
+      },
+      "VITD": {
+        "label": "Vitamin D",
+        "quantity": 0,
+        "unit": "%"
+      },
+      "TOCPHA": {
+        "label": "Vitamin E",
+        "quantity": 5.519197456666666,
+        "unit": "%"
+      },
+      "VITK1": {
+        "label": "Vitamin K",
+        "quantity": 13.419999999999998,
+        "unit": "%"
+      }
+    },
+    "digest": [
+      {
+        "label": "Fat",
+        "tag": "FAT",
+        "schemaOrgTag": "fatContent",
+        "total": 0.9363341749375,
+        "hasRDI": true,
+        "daily": 1.4405141152884615,
+        "unit": "g",
+        "sub": [
+          {
+            "label": "Saturated",
+            "tag": "FASAT",
+            "schemaOrgTag": "saturatedFatContent",
+            "total": 0.39057408675000005,
+            "hasRDI": true,
+            "daily": 1.9528704337500002,
+            "unit": "g"
+          },
+          {
+            "label": "Trans",
+            "tag": "FATRN",
+            "schemaOrgTag": "transFatContent",
+            "total": 0.018994180493750002,
+            "hasRDI": false,
+            "daily": 0,
+            "unit": "g"
+          },
+          {
+            "label": "Monounsaturated",
+            "tag": "FAMS",
+            "schemaOrgTag": null,
+            "total": 0.16092353932500003,
+            "hasRDI": false,
+            "daily": 0,
+            "unit": "g"
+          },
+          {
+            "label": "Polyunsaturated",
+            "tag": "FAPU",
+            "schemaOrgTag": null,
+            "total": 0.14797010419375,
+            "hasRDI": false,
+            "daily": 0,
+            "unit": "g"
+          }
+        ]
+      },
+      {
+        "label": "Carbs",
+        "tag": "CHOCDF",
+        "schemaOrgTag": "carbohydrateContent",
+        "total": 13.03703730075,
+        "hasRDI": true,
+        "daily": 4.34567910025,
+        "unit": "g",
+        "sub": [
+          {
+            "label": "Carbs (net)",
+            "tag": "CHOCDF.net",
+            "schemaOrgTag": null,
+            "total": 9.62103730075,
+            "hasRDI": false,
+            "daily": 0,
+            "unit": "g"
+          },
+          {
+            "label": "Fiber",
+            "tag": "FIBTG",
+            "schemaOrgTag": "fiberContent",
+            "total": 3.416,
+            "hasRDI": true,
+            "daily": 13.663999999999998,
+            "unit": "g"
+          },
+          {
+            "label": "Sugars",
+            "tag": "SUGAR",
+            "schemaOrgTag": "sugarContent",
+            "total": 6.916780925,
+            "hasRDI": false,
+            "daily": 0,
+            "unit": "g"
+          },
+          {
+            "label": "Sugars, added",
+            "tag": "SUGAR.added",
+            "schemaOrgTag": null,
+            "total": 0,
+            "hasRDI": false,
+            "daily": 0,
+            "unit": "g"
+          }
+        ]
+      },
+      {
+        "label": "Protein",
+        "tag": "PROCNT",
+        "schemaOrgTag": "proteinContent",
+        "total": 4.082950405000001,
+        "hasRDI": true,
+        "daily": 8.165900810000002,
+        "unit": "g"
+      },
+      {
+        "label": "Cholesterol",
+        "tag": "CHOLE",
+        "schemaOrgTag": "cholesterolContent",
+        "total": 3.401942775,
+        "hasRDI": true,
+        "daily": 1.133980925,
+        "unit": "mg"
+      },
+      {
+        "label": "Sodium",
+        "tag": "NA",
+        "schemaOrgTag": "sodiumContent",
+        "total": 171.496531225,
+        "hasRDI": true,
+        "daily": 7.145688801041667,
+        "unit": "mg"
+      },
+      {
+        "label": "Calcium",
+        "tag": "CA",
+        "schemaOrgTag": null,
+        "total": 71.72797066875,
+        "hasRDI": true,
+        "daily": 7.172797066875001,
+        "unit": "mg"
+      },
+      {
+        "label": "Magnesium",
+        "tag": "MG",
+        "schemaOrgTag": null,
+        "total": 17.19145708125,
+        "hasRDI": true,
+        "daily": 4.093204066964286,
+        "unit": "mg"
+      },
+      {
+        "label": "Potassium",
+        "tag": "K",
+        "schemaOrgTag": null,
+        "total": 425.83690390625,
+        "hasRDI": true,
+        "daily": 9.060359657579786,
+        "unit": "mg"
+      },
+      {
+        "label": "Iron",
+        "tag": "FE",
+        "schemaOrgTag": null,
+        "total": 0.4028543800625,
+        "hasRDI": true,
+        "daily": 2.2380798892361113,
+        "unit": "mg"
+      },
+      {
+        "label": "Zinc",
+        "tag": "ZN",
+        "schemaOrgTag": null,
+        "total": 0.4373825679375,
+        "hasRDI": true,
+        "daily": 3.9762051630681823,
+        "unit": "mg"
+      },
+      {
+        "label": "Phosphorus",
+        "tag": "P",
+        "schemaOrgTag": null,
+        "total": 85.2242846875,
+        "hasRDI": true,
+        "daily": 12.174897812500001,
+        "unit": "mg"
+      },
+      {
+        "label": "Vitamin A",
+        "tag": "VITA_RAE",
+        "schemaOrgTag": null,
+        "total": 1037.977675725,
+        "hasRDI": true,
+        "daily": 115.33085285833332,
+        "unit": "µg"
+      },
+      {
+        "label": "Vitamin C",
+        "tag": "VITC",
+        "schemaOrgTag": null,
+        "total": 7.198,
+        "hasRDI": true,
+        "daily": 7.997777777777778,
+        "unit": "mg"
+      },
+      {
+        "label": "Thiamin (B1)",
+        "tag": "THIA",
+        "schemaOrgTag": null,
+        "total": 0.08618990462500001,
+        "hasRDI": true,
+        "daily": 7.182492052083335,
+        "unit": "mg"
+      },
+      {
+        "label": "Riboflavin (B2)",
+        "tag": "RIBF",
+        "schemaOrgTag": null,
+        "total": 0.14191730304375,
+        "hasRDI": true,
+        "daily": 10.916715618749999,
+        "unit": "mg"
+      },
+      {
+        "label": "Niacin (B3)",
+        "tag": "NIA",
+        "schemaOrgTag": null,
+        "total": 1.22846000881875,
+        "hasRDI": true,
+        "daily": 7.6778750551171875,
+        "unit": "mg"
+      },
+      {
+        "label": "Vitamin B6",
+        "tag": "VITB6A",
+        "schemaOrgTag": null,
+        "total": 0.18451922818125002,
+        "hasRDI": true,
+        "daily": 14.193786783173078,
+        "unit": "mg"
+      },
+      {
+        "label": "Folate equivalent (total)",
+        "tag": "FOLDFE",
+        "schemaOrgTag": null,
+        "total": 25.44796185,
+        "hasRDI": true,
+        "daily": 6.3619904625,
+        "unit": "µg"
+      },
+      {
+        "label": "Folate (food)",
+        "tag": "FOLFD",
+        "schemaOrgTag": null,
+        "total": 25.44796185,
+        "hasRDI": false,
+        "daily": 0,
+        "unit": "µg"
+      },
+      {
+        "label": "Folic acid",
+        "tag": "FOLAC",
+        "schemaOrgTag": null,
+        "total": 0,
+        "hasRDI": false,
+        "daily": 0,
+        "unit": "µg"
+      },
+      {
+        "label": "Vitamin B12",
+        "tag": "VITB12",
+        "schemaOrgTag": null,
+        "total": 0.13324275868750002,
+        "hasRDI": true,
+        "daily": 5.551781611979168,
+        "unit": "µg"
+      },
+      {
+        "label": "Vitamin D",
+        "tag": "VITD",
+        "schemaOrgTag": null,
+        "total": 0,
+        "hasRDI": true,
+        "daily": 0,
+        "unit": "µg"
+      },
+      {
+        "label": "Vitamin E",
+        "tag": "TOCPHA",
+        "schemaOrgTag": null,
+        "total": 0.8278796185,
+        "hasRDI": true,
+        "daily": 5.519197456666666,
+        "unit": "mg"
+      },
+      {
+        "label": "Vitamin K",
+        "tag": "VITK1",
+        "schemaOrgTag": null,
+        "total": 16.104,
+        "hasRDI": true,
+        "daily": 13.419999999999998,
+        "unit": "µg"
+      },
+      {
+        "label": "Sugar alcohols",
+        "tag": "Sugar.alcohol",
+        "schemaOrgTag": null,
+        "total": 0,
+        "hasRDI": false,
+        "daily": 0,
+        "unit": "g"
+      },
+      {
+        "label": "Water",
+        "tag": "WATER",
+        "schemaOrgTag": null,
+        "total": 130.7458127775,
+        "hasRDI": false,
+        "daily": 0,
+        "unit": "g"
+      }
+    ],
+    "rating": 1
+  },
+  {
+    "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_39f060e30e4ad5af9c726f9ce7acb4b6",
+    "label": "Snack Mix Brownies",
+    "image": "https://edamam-product-images.s3.amazonaws.com/web-img/f6c/f6ccf55eb0f34990c10da839fa0a8a3a.jpeg?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJGMEQCIECLseXclPBEMlcdDrrfPNmiL%2BS%2FvK1f71CUPPdodfM%2FAiA6Wpir7n1Z6%2B2iTrULbLxwenJbqQ2h%2FcCR5hG6vn1iASrCBQjM%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDE4NzAxNzE1MDk4NiIMnkHwPgCbYM6NPGrOKpYFZee%2BWQQpRqdRHoyA5FG4EHKsGz5CHysGJJLalKC8ATA5MlX2CfPHhn6hOPvs3t2h0yE0ZlGluf0pZWSrGWGO41KHEBanZulpPfdLy6zFz3wbTtKMHkbDitM1ON1LAzgaUO2HClOGNhK6SFl%2FWPi2HZxujx1Y98wA9Z45mjK5VxQRB2k1oVKYLOXyJ92vgiimYgEI99CBX0G7%2F1JdO4tQR3vwBZg3U74C28qCbgw2AlBVvmaF5hwymvwAkZyrckCCF39CwpPn08zBU6DCg9ay%2FkmLpRh4FF%2Fdr2gGsKkQpKpwncAh75znp%2BDYZnKPQ6lDUXUYHSkIzbL2kXJnLrWE0b6FEsWhm7qBJJ8i3IYQMYA34E%2F5G8phan9cZ6eGo7Jll7p1JNt%2BDS%2BDfcsF573AM87pRYzd2cU3cO5vYoLuQ7z84yjTje87ZX9r%2BhTPVuM5R7nG8Oy%2Blrb%2FNzvQj%2B%2BGpCmjuKgpqdzh3TsiK1xd1ISdywodrzeMcSjO5%2BUfjrTvQKhyi8orXI152cCSYp0Gp%2FR3I1lj11Eiwez6ze7Ko8Dg1HDESaCM63iyrRGyNjj2wcxa7WtDKD6trzLhIZWWUOvQBtQ9Layyj3LySMctQuLBLJQ8lsDQOuRbP9zaU8ncVtOLPRSJ8imGIjy8x4gfLgoCz68s8Ej%2FaEiFLLtWLpIVEUQcDL4vGK067ugCwDGaT9l6Uqr4LsDJTZu6pPDtZwdpYNY7gpGtLlq0MYzZgx4Cuqg1LgFIZ3U8GygfOQaIZ9H9TMSKmuteVZTnLBjTGl1wxLw6FS58JxFb%2Fuj17ZEBCNnbau0%2Bnm5ibyOpYLzURx8pfNeoy9blX4Bo%2BviKS5hhbBHzSMFaZrCfhUSl%2FDHzHqE86KUwpNXfvQY6sgGupeew3QDPD93Bdyp7ZBPxvYRh1NF43wFimboc1ljFEmcp3%2FJASF2VOo4Exj6GGcqmBGxtnN5wNzRL4FELcG8V2dYUhthZ91CVm1%2Be%2Bw6sPFqfRLpl1XdngWKQq%2FpSvxwxVLdmIGL%2FzP8LcFqS1V0Zbj8S0G8ru8UfWNbGSEfoQ6WjA3jaqgCJg06OBwkYnxW40fLpM%2B2ApCpTdvVKa%2BLMnOBBIHutsOSkyUHds8oe4QUl&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20250221T041417Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=ASIASXCYXIIFDSNEFEBD%2F20250221%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=d88fcaa6eb1aed8fc6e29456c261ca177fbfbe60f76c14b03e729ac725bc10bf",
+    "images": {
+      "THUMBNAIL": {
+        "url": "https://edamam-product-images.s3.amazonaws.com/web-img/f6c/f6ccf55eb0f34990c10da839fa0a8a3a-s.jpeg?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJGMEQCIECLseXclPBEMlcdDrrfPNmiL%2BS%2FvK1f71CUPPdodfM%2FAiA6Wpir7n1Z6%2B2iTrULbLxwenJbqQ2h%2FcCR5hG6vn1iASrCBQjM%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDE4NzAxNzE1MDk4NiIMnkHwPgCbYM6NPGrOKpYFZee%2BWQQpRqdRHoyA5FG4EHKsGz5CHysGJJLalKC8ATA5MlX2CfPHhn6hOPvs3t2h0yE0ZlGluf0pZWSrGWGO41KHEBanZulpPfdLy6zFz3wbTtKMHkbDitM1ON1LAzgaUO2HClOGNhK6SFl%2FWPi2HZxujx1Y98wA9Z45mjK5VxQRB2k1oVKYLOXyJ92vgiimYgEI99CBX0G7%2F1JdO4tQR3vwBZg3U74C28qCbgw2AlBVvmaF5hwymvwAkZyrckCCF39CwpPn08zBU6DCg9ay%2FkmLpRh4FF%2Fdr2gGsKkQpKpwncAh75znp%2BDYZnKPQ6lDUXUYHSkIzbL2kXJnLrWE0b6FEsWhm7qBJJ8i3IYQMYA34E%2F5G8phan9cZ6eGo7Jll7p1JNt%2BDS%2BDfcsF573AM87pRYzd2cU3cO5vYoLuQ7z84yjTje87ZX9r%2BhTPVuM5R7nG8Oy%2Blrb%2FNzvQj%2B%2BGpCmjuKgpqdzh3TsiK1xd1ISdywodrzeMcSjO5%2BUfjrTvQKhyi8orXI152cCSYp0Gp%2FR3I1lj11Eiwez6ze7Ko8Dg1HDESaCM63iyrRGyNjj2wcxa7WtDKD6trzLhIZWWUOvQBtQ9Layyj3LySMctQuLBLJQ8lsDQOuRbP9zaU8ncVtOLPRSJ8imGIjy8x4gfLgoCz68s8Ej%2FaEiFLLtWLpIVEUQcDL4vGK067ugCwDGaT9l6Uqr4LsDJTZu6pPDtZwdpYNY7gpGtLlq0MYzZgx4Cuqg1LgFIZ3U8GygfOQaIZ9H9TMSKmuteVZTnLBjTGl1wxLw6FS58JxFb%2Fuj17ZEBCNnbau0%2Bnm5ibyOpYLzURx8pfNeoy9blX4Bo%2BviKS5hhbBHzSMFaZrCfhUSl%2FDHzHqE86KUwpNXfvQY6sgGupeew3QDPD93Bdyp7ZBPxvYRh1NF43wFimboc1ljFEmcp3%2FJASF2VOo4Exj6GGcqmBGxtnN5wNzRL4FELcG8V2dYUhthZ91CVm1%2Be%2Bw6sPFqfRLpl1XdngWKQq%2FpSvxwxVLdmIGL%2FzP8LcFqS1V0Zbj8S0G8ru8UfWNbGSEfoQ6WjA3jaqgCJg06OBwkYnxW40fLpM%2B2ApCpTdvVKa%2BLMnOBBIHutsOSkyUHds8oe4QUl&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20250221T041417Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=ASIASXCYXIIFDSNEFEBD%2F20250221%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=3cd356e765e5d8a0e6eb82307d166a0805beb1b3a53c781fa76e6c9789ab3932",
+        "width": 100,
+        "height": 100
+      },
+      "SMALL": {
+        "url": "https://edamam-product-images.s3.amazonaws.com/web-img/f6c/f6ccf55eb0f34990c10da839fa0a8a3a-m.jpeg?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJGMEQCIECLseXclPBEMlcdDrrfPNmiL%2BS%2FvK1f71CUPPdodfM%2FAiA6Wpir7n1Z6%2B2iTrULbLxwenJbqQ2h%2FcCR5hG6vn1iASrCBQjM%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDE4NzAxNzE1MDk4NiIMnkHwPgCbYM6NPGrOKpYFZee%2BWQQpRqdRHoyA5FG4EHKsGz5CHysGJJLalKC8ATA5MlX2CfPHhn6hOPvs3t2h0yE0ZlGluf0pZWSrGWGO41KHEBanZulpPfdLy6zFz3wbTtKMHkbDitM1ON1LAzgaUO2HClOGNhK6SFl%2FWPi2HZxujx1Y98wA9Z45mjK5VxQRB2k1oVKYLOXyJ92vgiimYgEI99CBX0G7%2F1JdO4tQR3vwBZg3U74C28qCbgw2AlBVvmaF5hwymvwAkZyrckCCF39CwpPn08zBU6DCg9ay%2FkmLpRh4FF%2Fdr2gGsKkQpKpwncAh75znp%2BDYZnKPQ6lDUXUYHSkIzbL2kXJnLrWE0b6FEsWhm7qBJJ8i3IYQMYA34E%2F5G8phan9cZ6eGo7Jll7p1JNt%2BDS%2BDfcsF573AM87pRYzd2cU3cO5vYoLuQ7z84yjTje87ZX9r%2BhTPVuM5R7nG8Oy%2Blrb%2FNzvQj%2B%2BGpCmjuKgpqdzh3TsiK1xd1ISdywodrzeMcSjO5%2BUfjrTvQKhyi8orXI152cCSYp0Gp%2FR3I1lj11Eiwez6ze7Ko8Dg1HDESaCM63iyrRGyNjj2wcxa7WtDKD6trzLhIZWWUOvQBtQ9Layyj3LySMctQuLBLJQ8lsDQOuRbP9zaU8ncVtOLPRSJ8imGIjy8x4gfLgoCz68s8Ej%2FaEiFLLtWLpIVEUQcDL4vGK067ugCwDGaT9l6Uqr4LsDJTZu6pPDtZwdpYNY7gpGtLlq0MYzZgx4Cuqg1LgFIZ3U8GygfOQaIZ9H9TMSKmuteVZTnLBjTGl1wxLw6FS58JxFb%2Fuj17ZEBCNnbau0%2Bnm5ibyOpYLzURx8pfNeoy9blX4Bo%2BviKS5hhbBHzSMFaZrCfhUSl%2FDHzHqE86KUwpNXfvQY6sgGupeew3QDPD93Bdyp7ZBPxvYRh1NF43wFimboc1ljFEmcp3%2FJASF2VOo4Exj6GGcqmBGxtnN5wNzRL4FELcG8V2dYUhthZ91CVm1%2Be%2Bw6sPFqfRLpl1XdngWKQq%2FpSvxwxVLdmIGL%2FzP8LcFqS1V0Zbj8S0G8ru8UfWNbGSEfoQ6WjA3jaqgCJg06OBwkYnxW40fLpM%2B2ApCpTdvVKa%2BLMnOBBIHutsOSkyUHds8oe4QUl&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20250221T041417Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=ASIASXCYXIIFDSNEFEBD%2F20250221%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=c7ac50f17c10031b495716ac5c7e04cc80dbcd4f2a759bed7da1fa8332700db9",
+        "width": 200,
+        "height": 200
+      },
+      "REGULAR": {
+        "url": "https://edamam-product-images.s3.amazonaws.com/web-img/f6c/f6ccf55eb0f34990c10da839fa0a8a3a.jpeg?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJGMEQCIECLseXclPBEMlcdDrrfPNmiL%2BS%2FvK1f71CUPPdodfM%2FAiA6Wpir7n1Z6%2B2iTrULbLxwenJbqQ2h%2FcCR5hG6vn1iASrCBQjM%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDE4NzAxNzE1MDk4NiIMnkHwPgCbYM6NPGrOKpYFZee%2BWQQpRqdRHoyA5FG4EHKsGz5CHysGJJLalKC8ATA5MlX2CfPHhn6hOPvs3t2h0yE0ZlGluf0pZWSrGWGO41KHEBanZulpPfdLy6zFz3wbTtKMHkbDitM1ON1LAzgaUO2HClOGNhK6SFl%2FWPi2HZxujx1Y98wA9Z45mjK5VxQRB2k1oVKYLOXyJ92vgiimYgEI99CBX0G7%2F1JdO4tQR3vwBZg3U74C28qCbgw2AlBVvmaF5hwymvwAkZyrckCCF39CwpPn08zBU6DCg9ay%2FkmLpRh4FF%2Fdr2gGsKkQpKpwncAh75znp%2BDYZnKPQ6lDUXUYHSkIzbL2kXJnLrWE0b6FEsWhm7qBJJ8i3IYQMYA34E%2F5G8phan9cZ6eGo7Jll7p1JNt%2BDS%2BDfcsF573AM87pRYzd2cU3cO5vYoLuQ7z84yjTje87ZX9r%2BhTPVuM5R7nG8Oy%2Blrb%2FNzvQj%2B%2BGpCmjuKgpqdzh3TsiK1xd1ISdywodrzeMcSjO5%2BUfjrTvQKhyi8orXI152cCSYp0Gp%2FR3I1lj11Eiwez6ze7Ko8Dg1HDESaCM63iyrRGyNjj2wcxa7WtDKD6trzLhIZWWUOvQBtQ9Layyj3LySMctQuLBLJQ8lsDQOuRbP9zaU8ncVtOLPRSJ8imGIjy8x4gfLgoCz68s8Ej%2FaEiFLLtWLpIVEUQcDL4vGK067ugCwDGaT9l6Uqr4LsDJTZu6pPDtZwdpYNY7gpGtLlq0MYzZgx4Cuqg1LgFIZ3U8GygfOQaIZ9H9TMSKmuteVZTnLBjTGl1wxLw6FS58JxFb%2Fuj17ZEBCNnbau0%2Bnm5ibyOpYLzURx8pfNeoy9blX4Bo%2BviKS5hhbBHzSMFaZrCfhUSl%2FDHzHqE86KUwpNXfvQY6sgGupeew3QDPD93Bdyp7ZBPxvYRh1NF43wFimboc1ljFEmcp3%2FJASF2VOo4Exj6GGcqmBGxtnN5wNzRL4FELcG8V2dYUhthZ91CVm1%2Be%2Bw6sPFqfRLpl1XdngWKQq%2FpSvxwxVLdmIGL%2FzP8LcFqS1V0Zbj8S0G8ru8UfWNbGSEfoQ6WjA3jaqgCJg06OBwkYnxW40fLpM%2B2ApCpTdvVKa%2BLMnOBBIHutsOSkyUHds8oe4QUl&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20250221T041417Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=ASIASXCYXIIFDSNEFEBD%2F20250221%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=d88fcaa6eb1aed8fc6e29456c261ca177fbfbe60f76c14b03e729ac725bc10bf",
+        "width": 300,
+        "height": 300
+      },
+      "LARGE": {
+        "url": "https://edamam-product-images.s3.amazonaws.com/web-img/f6c/f6ccf55eb0f34990c10da839fa0a8a3a-l.jpeg?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJGMEQCIECLseXclPBEMlcdDrrfPNmiL%2BS%2FvK1f71CUPPdodfM%2FAiA6Wpir7n1Z6%2B2iTrULbLxwenJbqQ2h%2FcCR5hG6vn1iASrCBQjM%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDE4NzAxNzE1MDk4NiIMnkHwPgCbYM6NPGrOKpYFZee%2BWQQpRqdRHoyA5FG4EHKsGz5CHysGJJLalKC8ATA5MlX2CfPHhn6hOPvs3t2h0yE0ZlGluf0pZWSrGWGO41KHEBanZulpPfdLy6zFz3wbTtKMHkbDitM1ON1LAzgaUO2HClOGNhK6SFl%2FWPi2HZxujx1Y98wA9Z45mjK5VxQRB2k1oVKYLOXyJ92vgiimYgEI99CBX0G7%2F1JdO4tQR3vwBZg3U74C28qCbgw2AlBVvmaF5hwymvwAkZyrckCCF39CwpPn08zBU6DCg9ay%2FkmLpRh4FF%2Fdr2gGsKkQpKpwncAh75znp%2BDYZnKPQ6lDUXUYHSkIzbL2kXJnLrWE0b6FEsWhm7qBJJ8i3IYQMYA34E%2F5G8phan9cZ6eGo7Jll7p1JNt%2BDS%2BDfcsF573AM87pRYzd2cU3cO5vYoLuQ7z84yjTje87ZX9r%2BhTPVuM5R7nG8Oy%2Blrb%2FNzvQj%2B%2BGpCmjuKgpqdzh3TsiK1xd1ISdywodrzeMcSjO5%2BUfjrTvQKhyi8orXI152cCSYp0Gp%2FR3I1lj11Eiwez6ze7Ko8Dg1HDESaCM63iyrRGyNjj2wcxa7WtDKD6trzLhIZWWUOvQBtQ9Layyj3LySMctQuLBLJQ8lsDQOuRbP9zaU8ncVtOLPRSJ8imGIjy8x4gfLgoCz68s8Ej%2FaEiFLLtWLpIVEUQcDL4vGK067ugCwDGaT9l6Uqr4LsDJTZu6pPDtZwdpYNY7gpGtLlq0MYzZgx4Cuqg1LgFIZ3U8GygfOQaIZ9H9TMSKmuteVZTnLBjTGl1wxLw6FS58JxFb%2Fuj17ZEBCNnbau0%2Bnm5ibyOpYLzURx8pfNeoy9blX4Bo%2BviKS5hhbBHzSMFaZrCfhUSl%2FDHzHqE86KUwpNXfvQY6sgGupeew3QDPD93Bdyp7ZBPxvYRh1NF43wFimboc1ljFEmcp3%2FJASF2VOo4Exj6GGcqmBGxtnN5wNzRL4FELcG8V2dYUhthZ91CVm1%2Be%2Bw6sPFqfRLpl1XdngWKQq%2FpSvxwxVLdmIGL%2FzP8LcFqS1V0Zbj8S0G8ru8UfWNbGSEfoQ6WjA3jaqgCJg06OBwkYnxW40fLpM%2B2ApCpTdvVKa%2BLMnOBBIHutsOSkyUHds8oe4QUl&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20250221T041417Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=ASIASXCYXIIFDSNEFEBD%2F20250221%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=cdcc7e7de2d0f514825e0f17c6e5fc5d682f90a831aca7b227fa95c214601e75",
+        "width": 600,
+        "height": 600
+      }
+    },
+    "source": "Food Network",
+    "url": "https://www.foodnetwork.com/recipes/snack-mix-brownies-4655464",
+    "shareAs": "http://www.edamam.com/recipe/snack-mix-brownies-39f060e30e4ad5af9c726f9ce7acb4b6/snack",
+    "yield": 16,
+    "dietLabels": [
+      "Low-Sodium"
+    ],
+    "healthLabels": [
+      "Low Potassium",
+      "Kidney-Friendly",
+      "Vegetarian",
+      "Pescatarian",
+      "Egg-Free",
+      "Peanut-Free",
+      "Tree-Nut-Free",
+      "Fish-Free",
+      "Shellfish-Free",
+      "Pork-Free",
+      "Red-Meat-Free",
+      "Crustacean-Free",
+      "Celery-Free",
+      "Mustard-Free",
+      "Sesame-Free",
+      "Lupine-Free",
+      "Mollusk-Free",
+      "Alcohol-Free",
+      "Sulfite-Free",
+      "Kosher"
+    ],
+    "cautions": [
+      "Sulfites"
+    ],
+    "ingredientLines": [
+      "Nonstick cooking spray, for the pan and parchment",
+      "One 18-ounce box brownie mix, such as Duncan Hines (plus required ingredients)",
+      "2 cups snack mix, such as Traditional Savory Chex Mix"
+    ],
+    "ingredients": [
+      {
+        "text": "Nonstick cooking spray, for the pan and parchment",
+        "quantity": 0,
+        "measure": null,
+        "food": "cooking spray",
+        "weight": 8.218363261,
+        "foodCategory": "Oils",
+        "foodId": "food_aglc0hqae3alv1biazc6qaiamw2x",
+        "image": null
+      },
+      {
+        "text": "One 18-ounce box brownie mix, such as Duncan Hines (plus required ingredients)",
+        "quantity": 18,
+        "measure": "ounce",
+        "food": "brownie mix",
+        "weight": 510.29141625,
+        "foodCategory": "quick breads and pastries",
+        "foodId": "food_a00o5sdan3enfba1ea6yaayie5w1",
+        "image": "https://www.edamam.com/food-img/c1b/c1b8bf5ab19434a4d9dc0bf3c91efc25.jpg"
+      },
+      {
+        "text": "2 cups snack mix, such as Traditional Savory Chex Mix",
+        "quantity": 2,
+        "measure": "cup",
+        "food": "Chex Mix",
+        "weight": 94,
+        "foodCategory": "savory snacks",
+        "foodId": "food_bfx99saagz0sqlaj35aegazekzpc",
+        "image": "https://www.edamam.com/food-img/542/5428082dd6425ced41d4a79b9e9b9fe6.jpg"
+      }
+    ],
+    "calories": 2714.03458268962,
+    "totalCO2Emissions": 979.5563857412501,
+    "co2EmissionsClass": "A",
+    "totalWeight": 612.509779511,
+    "totalTime": 50,
+    "cuisineType": [
+      "french"
+    ],
+    "mealType": [
+      "teatime",
+      "snack"
+    ],
+    "dishType": [
+      "desserts"
+    ],
+    "totalNutrients": {
+      "ENERC_KCAL": {
+        "label": "Energy",
+        "quantity": 2714.03458268962,
+        "unit": "kcal"
+      },
+      "FAT": {
+        "label": "Fat",
+        "quantity": 77.613113252657,
+        "unit": "g"
+      },
+      "FASAT": {
+        "label": "Saturated",
+        "quantity": 15.1300219715022,
+        "unit": "g"
+      },
+      "FATRN": {
+        "label": "Trans",
+        "quantity": 0.41641999999999996,
+        "unit": "g"
+      },
+      "FAMS": {
+        "label": "Monounsaturated",
+        "quantity": 37.017119261002996,
+        "unit": "g"
+      },
+      "FAPU": {
+        "label": "Polyunsaturated",
+        "quantity": 10.052180469056001,
+        "unit": "g"
+      },
+      "CHOCDF": {
+        "label": "Carbs",
+        "quantity": 471.543180118777,
+        "unit": "g"
+      },
+      "CHOCDF.net": {
+        "label": "Carbohydrates (net)",
+        "quantity": 467.877180118777,
+        "unit": "g"
+      },
+      "FIBTG": {
+        "label": "Fiber",
+        "quantity": 3.666,
+        "unit": "g"
+      },
+      "SUGAR": {
+        "label": "Sugars",
+        "quantity": 257.66354246000003,
+        "unit": "g"
+      },
+      "PROCNT": {
+        "label": "Protein",
+        "quantity": 32.8155557244786,
+        "unit": "g"
+      },
+      "CHOLE": {
+        "label": "Cholesterol",
+        "quantity": 0,
+        "unit": "mg"
+      },
+      "NA": {
+        "label": "Sodium",
+        "quantity": 2191.43976977399,
+        "unit": "mg"
+      },
+      "CA": {
+        "label": "Calcium",
+        "quantity": 31.96,
+        "unit": "mg"
+      },
+      "MG": {
+        "label": "Magnesium",
+        "quantity": 38.54,
+        "unit": "mg"
+      },
+      "K": {
+        "label": "Potassium",
+        "quantity": 184.24,
+        "unit": "mg"
+      },
+      "FE": {
+        "label": "Iron",
+        "quantity": 17.149788796625,
+        "unit": "mg"
+      },
+      "ZN": {
+        "label": "Zinc",
+        "quantity": 1.0152,
+        "unit": "mg"
+      },
+      "P": {
+        "label": "Phosphorus",
+        "quantity": 144.76000000000002,
+        "unit": "mg"
+      },
+      "VITA_RAE": {
+        "label": "Vitamin A",
+        "quantity": 0,
+        "unit": "µg"
+      },
+      "VITC": {
+        "label": "Vitamin C",
+        "quantity": 0,
+        "unit": "mg"
+      },
+      "THIA": {
+        "label": "Thiamin (B1)",
+        "quantity": 0.32148000000000004,
+        "unit": "mg"
+      },
+      "RIBF": {
+        "label": "Riboflavin (B2)",
+        "quantity": 0.1974,
+        "unit": "mg"
+      },
+      "NIA": {
+        "label": "Niacin (B3)",
+        "quantity": 4.09088,
+        "unit": "mg"
+      },
+      "VITB6A": {
+        "label": "Vitamin B6",
+        "quantity": 0.08648,
+        "unit": "mg"
+      },
+      "FOLDFE": {
+        "label": "Folate equivalent (total)",
+        "quantity": 79.9,
+        "unit": "µg"
+      },
+      "FOLFD": {
+        "label": "Folate (food)",
+        "quantity": 0,
+        "unit": "µg"
+      },
+      "FOLAC": {
+        "label": "Folic acid",
+        "quantity": 47,
+        "unit": "µg"
+      },
+      "VITB12": {
+        "label": "Vitamin B12",
+        "quantity": 0,
+        "unit": "µg"
+      },
+      "VITD": {
+        "label": "Vitamin D",
+        "quantity": 0,
+        "unit": "µg"
+      },
+      "TOCPHA": {
+        "label": "Vitamin E",
+        "quantity": 0,
+        "unit": "mg"
+      },
+      "VITK1": {
+        "label": "Vitamin K",
+        "quantity": 0,
+        "unit": "µg"
+      },
+      "WATER": {
+        "label": "Water",
+        "quantity": 18.3096741033371,
+        "unit": "g"
+      }
+    },
+    "totalDaily": {
+      "ENERC_KCAL": {
+        "label": "Energy",
+        "quantity": 135.70172913448098,
+        "unit": "%"
+      },
+      "FAT": {
+        "label": "Fat",
+        "quantity": 119.40478961947231,
+        "unit": "%"
+      },
+      "FASAT": {
+        "label": "Saturated",
+        "quantity": 75.65010985751101,
+        "unit": "%"
+      },
+      "CHOCDF": {
+        "label": "Carbs",
+        "quantity": 157.18106003959235,
+        "unit": "%"
+      },
+      "FIBTG": {
+        "label": "Fiber",
+        "quantity": 14.663999999999998,
+        "unit": "%"
+      },
+      "PROCNT": {
+        "label": "Protein",
+        "quantity": 65.6311114489572,
+        "unit": "%"
+      },
+      "CHOLE": {
+        "label": "Cholesterol",
+        "quantity": 0,
+        "unit": "%"
+      },
+      "NA": {
+        "label": "Sodium",
+        "quantity": 91.30999040724959,
+        "unit": "%"
+      },
+      "CA": {
+        "label": "Calcium",
+        "quantity": 3.196,
+        "unit": "%"
+      },
+      "MG": {
+        "label": "Magnesium",
+        "quantity": 9.176190476190476,
+        "unit": "%"
+      },
+      "K": {
+        "label": "Potassium",
+        "quantity": 3.92,
+        "unit": "%"
+      },
+      "FE": {
+        "label": "Iron",
+        "quantity": 95.27660442569444,
+        "unit": "%"
+      },
+      "ZN": {
+        "label": "Zinc",
+        "quantity": 9.22909090909091,
+        "unit": "%"
+      },
+      "P": {
+        "label": "Phosphorus",
+        "quantity": 20.680000000000003,
+        "unit": "%"
+      },
+      "VITA_RAE": {
+        "label": "Vitamin A",
+        "quantity": 0,
+        "unit": "%"
+      },
+      "VITC": {
+        "label": "Vitamin C",
+        "quantity": 0,
+        "unit": "%"
+      },
+      "THIA": {
+        "label": "Thiamin (B1)",
+        "quantity": 26.790000000000003,
+        "unit": "%"
+      },
+      "RIBF": {
+        "label": "Riboflavin (B2)",
+        "quantity": 15.184615384615382,
+        "unit": "%"
+      },
+      "NIA": {
+        "label": "Niacin (B3)",
+        "quantity": 25.568,
+        "unit": "%"
+      },
+      "VITB6A": {
+        "label": "Vitamin B6",
+        "quantity": 6.652307692307692,
+        "unit": "%"
+      },
+      "FOLDFE": {
+        "label": "Folate equivalent (total)",
+        "quantity": 19.975,
+        "unit": "%"
+      },
+      "VITB12": {
+        "label": "Vitamin B12",
+        "quantity": 0,
+        "unit": "%"
+      },
+      "VITD": {
+        "label": "Vitamin D",
+        "quantity": 0,
+        "unit": "%"
+      },
+      "TOCPHA": {
+        "label": "Vitamin E",
+        "quantity": 0,
+        "unit": "%"
+      },
+      "VITK1": {
+        "label": "Vitamin K",
+        "quantity": 0,
+        "unit": "%"
+      }
+    },
+    "digest": [
+      {
+        "label": "Fat",
+        "tag": "FAT",
+        "schemaOrgTag": "fatContent",
+        "total": 77.613113252657,
+        "hasRDI": true,
+        "daily": 119.40478961947231,
+        "unit": "g",
+        "sub": [
+          {
+            "label": "Saturated",
+            "tag": "FASAT",
+            "schemaOrgTag": "saturatedFatContent",
+            "total": 15.1300219715022,
+            "hasRDI": true,
+            "daily": 75.65010985751101,
+            "unit": "g"
+          },
+          {
+            "label": "Trans",
+            "tag": "FATRN",
+            "schemaOrgTag": "transFatContent",
+            "total": 0.41641999999999996,
+            "hasRDI": false,
+            "daily": 0,
+            "unit": "g"
+          },
+          {
+            "label": "Monounsaturated",
+            "tag": "FAMS",
+            "schemaOrgTag": null,
+            "total": 37.017119261002996,
+            "hasRDI": false,
+            "daily": 0,
+            "unit": "g"
+          },
+          {
+            "label": "Polyunsaturated",
+            "tag": "FAPU",
+            "schemaOrgTag": null,
+            "total": 10.052180469056001,
+            "hasRDI": false,
+            "daily": 0,
+            "unit": "g"
+          }
+        ]
+      },
+      {
+        "label": "Carbs",
+        "tag": "CHOCDF",
+        "schemaOrgTag": "carbohydrateContent",
+        "total": 471.543180118777,
+        "hasRDI": true,
+        "daily": 157.18106003959235,
+        "unit": "g",
+        "sub": [
+          {
+            "label": "Carbs (net)",
+            "tag": "CHOCDF.net",
+            "schemaOrgTag": null,
+            "total": 467.877180118777,
+            "hasRDI": false,
+            "daily": 0,
+            "unit": "g"
+          },
+          {
+            "label": "Fiber",
+            "tag": "FIBTG",
+            "schemaOrgTag": "fiberContent",
+            "total": 3.666,
+            "hasRDI": true,
+            "daily": 14.663999999999998,
+            "unit": "g"
+          },
+          {
+            "label": "Sugars",
+            "tag": "SUGAR",
+            "schemaOrgTag": "sugarContent",
+            "total": 257.66354246000003,
+            "hasRDI": false,
+            "daily": 0,
+            "unit": "g"
+          },
+          {
+            "label": "Sugars, added",
+            "tag": "SUGAR.added",
+            "schemaOrgTag": null,
+            "total": 0,
+            "hasRDI": false,
+            "daily": 0,
+            "unit": "g"
+          }
+        ]
+      },
+      {
+        "label": "Protein",
+        "tag": "PROCNT",
+        "schemaOrgTag": "proteinContent",
+        "total": 32.8155557244786,
+        "hasRDI": true,
+        "daily": 65.6311114489572,
+        "unit": "g"
+      },
+      {
+        "label": "Cholesterol",
+        "tag": "CHOLE",
+        "schemaOrgTag": "cholesterolContent",
+        "total": 0,
+        "hasRDI": true,
+        "daily": 0,
+        "unit": "mg"
+      },
+      {
+        "label": "Sodium",
+        "tag": "NA",
+        "schemaOrgTag": "sodiumContent",
+        "total": 2191.43976977399,
+        "hasRDI": true,
+        "daily": 91.30999040724959,
+        "unit": "mg"
+      },
+      {
+        "label": "Calcium",
+        "tag": "CA",
+        "schemaOrgTag": null,
+        "total": 31.96,
+        "hasRDI": true,
+        "daily": 3.196,
+        "unit": "mg"
+      },
+      {
+        "label": "Magnesium",
+        "tag": "MG",
+        "schemaOrgTag": null,
+        "total": 38.54,
+        "hasRDI": true,
+        "daily": 9.176190476190476,
+        "unit": "mg"
+      },
+      {
+        "label": "Potassium",
+        "tag": "K",
+        "schemaOrgTag": null,
+        "total": 184.24,
+        "hasRDI": true,
+        "daily": 3.92,
+        "unit": "mg"
+      },
+      {
+        "label": "Iron",
+        "tag": "FE",
+        "schemaOrgTag": null,
+        "total": 17.149788796625,
+        "hasRDI": true,
+        "daily": 95.27660442569444,
+        "unit": "mg"
+      },
+      {
+        "label": "Zinc",
+        "tag": "ZN",
+        "schemaOrgTag": null,
+        "total": 1.0152,
+        "hasRDI": true,
+        "daily": 9.22909090909091,
+        "unit": "mg"
+      },
+      {
+        "label": "Phosphorus",
+        "tag": "P",
+        "schemaOrgTag": null,
+        "total": 144.76000000000002,
+        "hasRDI": true,
+        "daily": 20.680000000000003,
+        "unit": "mg"
+      },
+      {
+        "label": "Vitamin A",
+        "tag": "VITA_RAE",
+        "schemaOrgTag": null,
+        "total": 0,
+        "hasRDI": true,
+        "daily": 0,
+        "unit": "µg"
+      },
+      {
+        "label": "Vitamin C",
+        "tag": "VITC",
+        "schemaOrgTag": null,
+        "total": 0,
+        "hasRDI": true,
+        "daily": 0,
+        "unit": "mg"
+      },
+      {
+        "label": "Thiamin (B1)",
+        "tag": "THIA",
+        "schemaOrgTag": null,
+        "total": 0.32148000000000004,
+        "hasRDI": true,
+        "daily": 26.790000000000003,
+        "unit": "mg"
+      },
+      {
+        "label": "Riboflavin (B2)",
+        "tag": "RIBF",
+        "schemaOrgTag": null,
+        "total": 0.1974,
+        "hasRDI": true,
+        "daily": 15.184615384615382,
+        "unit": "mg"
+      },
+      {
+        "label": "Niacin (B3)",
+        "tag": "NIA",
+        "schemaOrgTag": null,
+        "total": 4.09088,
+        "hasRDI": true,
+        "daily": 25.568,
+        "unit": "mg"
+      },
+      {
+        "label": "Vitamin B6",
+        "tag": "VITB6A",
+        "schemaOrgTag": null,
+        "total": 0.08648,
+        "hasRDI": true,
+        "daily": 6.652307692307692,
+        "unit": "mg"
+      },
+      {
+        "label": "Folate equivalent (total)",
+        "tag": "FOLDFE",
+        "schemaOrgTag": null,
+        "total": 79.9,
+        "hasRDI": true,
+        "daily": 19.975,
+        "unit": "µg"
+      },
+      {
+        "label": "Folate (food)",
+        "tag": "FOLFD",
+        "schemaOrgTag": null,
+        "total": 0,
+        "hasRDI": false,
+        "daily": 0,
+        "unit": "µg"
+      },
+      {
+        "label": "Folic acid",
+        "tag": "FOLAC",
+        "schemaOrgTag": null,
+        "total": 47,
+        "hasRDI": false,
+        "daily": 0,
+        "unit": "µg"
+      },
+      {
+        "label": "Vitamin B12",
+        "tag": "VITB12",
+        "schemaOrgTag": null,
+        "total": 0,
+        "hasRDI": true,
+        "daily": 0,
+        "unit": "µg"
+      },
+      {
+        "label": "Vitamin D",
+        "tag": "VITD",
+        "schemaOrgTag": null,
+        "total": 0,
+        "hasRDI": true,
+        "daily": 0,
+        "unit": "µg"
+      },
+      {
+        "label": "Vitamin E",
+        "tag": "TOCPHA",
+        "schemaOrgTag": null,
+        "total": 0,
+        "hasRDI": true,
+        "daily": 0,
+        "unit": "mg"
+      },
+      {
+        "label": "Vitamin K",
+        "tag": "VITK1",
+        "schemaOrgTag": null,
+        "total": 0,
+        "hasRDI": true,
+        "daily": 0,
+        "unit": "µg"
+      },
+      {
+        "label": "Sugar alcohols",
+        "tag": "Sugar.alcohol",
+        "schemaOrgTag": null,
+        "total": 0,
+        "hasRDI": false,
+        "daily": 0,
+        "unit": "g"
+      },
+      {
+        "label": "Water",
+        "tag": "WATER",
+        "schemaOrgTag": null,
+        "total": 18.3096741033371,
+        "hasRDI": false,
+        "daily": 0,
+        "unit": "g"
+      }
+    ]
+  }
+]
